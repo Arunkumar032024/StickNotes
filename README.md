@@ -6,3 +6,5 @@ A Sticky Notes app built with HTML, CSS, and JavaScript offers a user-friendly i
 Add header section 
 <br>
 Add dialouge box
+<br>
+transform's property scale isn't supporting by the browser.

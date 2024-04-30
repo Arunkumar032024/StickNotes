@@ -126,8 +126,8 @@ header .btn:hover{
     font-size: 1.12rem;
     letter-spacing: 1px;
 }
-.notes-container span.active{
-    transform: scale(1.2);
+.notes-container span.active{        
+    transform: scale(1.1);
 }
 /* End notes-conatainer section style */
 

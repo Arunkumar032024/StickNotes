@@ -51,15 +51,15 @@ function addNotes() {
 
 // To single click on span or note 
 notesContainer.addEventListener('click', (e) => {
-    if(e.target.tagName = "SPAN"){
+    if(e.target.tagName == "SPAN"){
         // To toggle the active class
-        e.target.classList.toggle('active');
+        e.target.classList.toggle('active'); 
     }
 })
 
 // To double click on span or note 
 notesContainer.addEventListener('dblclick', (e) => {
-    if(e.target.tagName = "SPAN"){
+    if(e.target.tagName == "SPAN"){
         let result = confirm('Do u want to delete this note?');
         if (result) {
             e.target.remove();
