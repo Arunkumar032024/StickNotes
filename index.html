@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sticky Notes</title>
+    <!-- To add favicon icon -->
+    <link rel="shortcut icon" href="icon/favicon.png" type="image/x-icon">
     <!-- To add font-awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- To add own css -->
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
+    <!-- header section design -->
+    <header>
+        <h1><i class="fa-regular fa-pen-to-square"></i></i>Sticky Notes</h1>
+        <button class="btn"><i class="fa-solid fa-pencil"></i>Create Note</button>
+    </header>
+    <!-- End header section design -->
     
+    <!-- main section design -->
+    <main>
+        <!-- notes section design -->
+        <div class="note-container">
+            <textarea id="inputbox" placeholder="Write Note..."></textarea>
+            <div class="buttons">
+                <button class="btn"><i class="fa-solid fa-xmark"></i>Cancel</button>
+                <button class="btn"><i class="fa-solid fa-check"></i>Done</button>
+            </div>
+        </div>
+        <!-- End notes section design -->
+    </main>
+    <!-- End main section design -->
 
     <!-- To add own js -->
     <script src="app.js"></script>
